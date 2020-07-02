@@ -46,6 +46,7 @@ public:
 private Q_SLOTS:
 	void onStart();
 	void onStop();
+	void onComboChanged();
 
 private:
 	void init_devices(const char* device);
