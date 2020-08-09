@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.5)
 project(obs-v4l2sink)
 include(GNUInstallDirs)
 
-
-include(external/FindLibObs.cmake)
 find_package(LibObs REQUIRED)
 
 set (CMAKE_CXX_STANDARD 11)
