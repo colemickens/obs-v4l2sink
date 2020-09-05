@@ -1,3 +1,23 @@
+## colemickens fork info
+
+This is a lightly maintained fork, with these applied:
+
+- https://github.com/CatxFish/obs-v4l2sink/pull/21 (cc: @treister)
+- https://github.com/CatxFish/obs-v4l2sink/pull/35 (cc: @jktjkt)
+- https://github.com/CatxFish/obs-v4l2sink/pull/58 (cc: @yetist)
+- https://github.com/CatxFish/obs-v4l2sink/pull/59 (cc: @yetist)
+- https://github.com/CatxFish/obs-v4l2sink/pull/61 (cc: @aleixpol)
+
+Credit to their respective authors.
+
+(Note, as of this second, I think one of them might be breaking something. No devices appear in the OBS dropdown.)
+
+**If you use this please open an issue or comment in an existing one!**
+
+I'm not really a C expert, I'm not dying to maintain this, but also I don't want to keep applying a bunch of patches.
+
+---
+
 # obs-v4l2sink
 
 An [OBS Studio][obs-proj] plugin that provides output capabilities to a
