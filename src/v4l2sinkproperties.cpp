@@ -102,7 +102,8 @@ void V4l2sinkProperties::init_devices(const char* device)
 			::close(fd);
 			continue;
 		}
-
+		
+/*
 		if (video_cap.capabilities & V4L2_CAP_DEVICE_CAPS) {
 			caps = video_cap.device_caps;
 		} else {
@@ -118,6 +119,7 @@ void V4l2sinkProperties::init_devices(const char* device)
 			::close(fd);
 			continue;
 		}
+*/
 
 		/* make sure device names are unique */
 		char dev_name[68];
