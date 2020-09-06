@@ -16,6 +16,18 @@ Credit to their respective authors.
 
 I'm not really a C expert, I'm not dying to maintain this, but also I don't want to keep applying a bunch of patches.
 
+## Quick Usage
+
+```bash
+sudo modprobe v4l2loopback devices=1 video_nr=9 card_label="Linux V4L2 Device"  exclusive_caps=1
+```
+
+With gstreamer:
+
+```
+gphoto2 --stdout --capture-movie | gst-launch-1.0 fdsrc ! decodebin3 name=dec ! queue ! videoconvert ! v4l2sink device=/dev/videoX
+```
+
 ---
 
 # obs-v4l2sink
