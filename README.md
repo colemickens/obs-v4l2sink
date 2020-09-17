@@ -1,6 +1,6 @@
 ## colemickens fork info
 
-This is a lightly maintained fork, with these applied:
+This is an unmaintained fork, with these applied:
 
 - https://github.com/CatxFish/obs-v4l2sink/pull/21 (cc: @treister)
 - https://github.com/CatxFish/obs-v4l2sink/pull/35 (cc: @jktjkt)
@@ -12,9 +12,11 @@ Credit to their respective authors.
 
 (Note, as of this second, I think one of them might be breaking something. No devices appear in the OBS dropdown.)
 
-**If you use this please open an issue or comment in an existing one!**
+**Dont use this!**
 
-I'm not really a C expert, I'm not dying to maintain this, but also I don't want to keep applying a bunch of patches.
+Instead, thank @cg2121 for their work: https://github.com/obsproject/obs-studio/pull/3182
+
+# I will delete this repo as soon as that PR is merged ^
 
 ## Quick Usage
 
